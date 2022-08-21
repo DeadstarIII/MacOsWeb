@@ -1,4 +1,4 @@
-import Titlebar from "./Titlebar.jsx";
+import ComingSoon from "./ComingSoon.jsx";
 const Layout = ({ children }) => {
   return (
     <div>

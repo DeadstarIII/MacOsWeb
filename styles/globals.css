@@ -1,9 +1,7 @@
 *,
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: "San Fransisco";
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 html {
   background-image: url("../public/images/wallpaper.png");
@@ -22,3 +20,4 @@ html {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
