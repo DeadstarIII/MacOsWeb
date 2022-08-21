@@ -1,0 +1,53 @@
+/* Application-controls/Active */
+/* Auto layout */
+.div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 46px;
+  height: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+/* Red */
+.red {
+  width: 10px;
+  height: 10px;
+  /* Light/System/Red */
+  background: #ff3b30;
+  /* Shadows/Inner */
+  box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.yellow {
+  /* Yellow */
+  width: 10px;
+  height: 10px;
+  /* Light/System/Yellow */
+  background: #ffcc00;
+  /* Shadows/Inner */
+  box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.green {
+  /* Green */
+  width: 10px;
+  height: 10px;
+  /* Light/System/Green */
+  background: #34c759;
+  /* Shadows/Inner */
+  box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
