@@ -5,6 +5,9 @@ body {
   margin: 0;
   font-family: "San Fransisco";
 }
+html {
+  background-image: url("../public/images/wallpaper.png");
+}
 @font-face {
   font-family: "San Francisco";
   font-weight: 400;
