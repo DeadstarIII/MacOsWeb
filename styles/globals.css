@@ -20,4 +20,11 @@ html {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+:root {
+  --font: -apple-system, "Inter", sans-serif;
+  --primary-col-ac: #0f75f5;
+  --p-modal-bg: rgba(255, 255, 255, 0.8);
+  --p-modal-bd-color: rgba(0, 0, 0, 0.1);
+  --p-modal-fallback-color: rgba(255, 255, 255, 0.95);
+  --p-actions-static-color: #555761;
+}

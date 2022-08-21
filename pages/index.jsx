@@ -12,9 +12,6 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Script src="https://raw.githubusercontent.com/codedgar/Puppertino/master/src/js/actions.js"></Script>
-
-      <div className="coming-soon">Coming Soon</div>
     </div>
   );
 }

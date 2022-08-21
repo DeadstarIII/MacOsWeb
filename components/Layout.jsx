@@ -2,7 +2,7 @@ import ComingSoon from "./ComingSoon.jsx";
 const Layout = ({ children }) => {
   return (
     <div>
-      <Titlebar />
+      <ComingSoon />
       {children}
     </div>
   );
