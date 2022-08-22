@@ -3,7 +3,7 @@ const ComingSoon = () => {
   return (
     <div>
       <button className={styles.pbtn} data-p-open-actions="#actions_basic">
-        Basic Actions
+        Coming Soon
       </button>
 
       <div className={styles.pactionbackground}>
