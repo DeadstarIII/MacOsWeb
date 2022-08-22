@@ -4,7 +4,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 html {
-  background-image: url("../public/images/wallpaper.png");
+  background-image: url("../components/images/wallpaper.png");
 }
 @font-face {
   font-family: "San Francisco";

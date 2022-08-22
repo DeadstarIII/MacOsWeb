@@ -1,10 +1,7 @@
 import styles from "../styles/Actions.module.css";
-import Script from "next/script";
 const ComingSoon = () => {
   return (
     <div>
-      <Script src="https://raw.githubusercontent.com/codedgar/Puppertino/master/src/js/actions.js"></Script>
-
       <button className={styles.pbtn} data-p-open-actions="#actions_basic">
         Basic Actions
       </button>
