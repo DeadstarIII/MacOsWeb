@@ -57,7 +57,7 @@ body {
 
 }
 
-.doc-part-1 {
+/* .doc-part-1 {
 
     background-color: white;
     height: 11vh;
@@ -69,9 +69,6 @@ body {
     transition-duration: 0.3s;
 }
 
-/* .doc-part-1:hover , .item1:hover{
-    transform: scaleY(1.2);
-} */
 
 .doc-part-2 {
 
@@ -90,7 +87,7 @@ body {
     transition-duration: 0.3s;
 
 
-}
+} */
 
 
 @keyframes toggling {
