@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: blueviolet;
+    --main-doc-color: white;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+
+/* {
+    not using this because of transition property but still leaving it if for another purpose
+}
+
+/* @keyframes lamba-doc {
+    0%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scaleX(1.3);
+        position: relative;
+    }
+    
+} */
+
+
+
+.container {
+    position: relative;
+    top: 87vh;
+    left: 35vw;
+
+    background-color: var(--main-doc-color);
+    height: 11vh;
+    width: 30vw;
+
+    transition-property: all;
+    transition-duration: 0.3s;
+
+    
+}
+
+/* .container:hover{
+    animation: lamba-doc 0.3s ease-in-out 0s 1  ;
+    margin: 0 30px;
+    transform: scaleX(1.3);
+
+} */
+
+.container:hover {
+    transform: scaleX(1.3) scaleY(1.2);
+
+}
+
+.doc-part-1 {
+
+    background-color: white;
+    height: 11vh;
+    width: 15vw;
+
+    box-sizing: border-box;
+
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+/* .doc-part-1:hover , .item1:hover{
+    transform: scaleY(1.2);
+} */
+
+.doc-part-2 {
+
+    background-color: white;
+
+    float: right;
+    position: relative;
+    bottom: 11vh;
+
+    height: 11vh;
+    width: 15vw;
+
+    box-sizing: border-box;
+
+    transition-property: all;
+    transition-duration: 0.3s;
+
+
+}
+
+
+@keyframes toggling {
+    0% {
+        position: relative;
+        bottom: 0%;
+    }
+
+    50% {
+        position: relative;
+        bottom: 4px;
+    }
+
+    100% {
+        position: relative;
+        bottom: 6px;
+    }
+}
+
+.item1 {
+
+    background: green;
+    height: 7vh;
+    width: 4vw;
+    position: relative;
+    left: 2vw;
+    top: 1vw;
+
+    transition: all 0.4s;
+
+}
+
+.item1:hover {
+    transform: scaleY(1.2) translateY(-20px);
+}
+
+.item2 {
+
+    background: red;
+    height: 7vh;
+    width: 4vw;
+    position: relative;
+    left: 10vw;
+    bottom: 5vh;
+}
+
+.item3 {
+
+    background: yellow;
+    height: 7vh;
+    width: 4vw;
+    position: relative;
+    left: 10vw;
+    top: 2vh;
+}
+
+.item4 {
+
+    background: blue;
+    height: 7vh;
+    width: 4vw;
+    position: relative;
+    left: 3vw;
+    bottom: 5vh;
+}
