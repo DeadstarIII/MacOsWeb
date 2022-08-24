@@ -84,6 +84,7 @@
 
 .item1 {
   background: green;
+  border-radius: 10px;
   height: 7vh;
   width: 4vw;
   position: relative;
@@ -99,6 +100,7 @@
 
 .item2 {
   background: red;
+  border-radius: 10px;
   height: 7vh;
   width: 4vw;
   position: relative;
