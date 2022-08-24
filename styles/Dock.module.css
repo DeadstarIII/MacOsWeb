@@ -1,11 +1,10 @@
 /* Krrish*/
 
-
 /* {
     not using this because of transition property but still leaving it if for another purpose
 }
 
-/* @keyframes lamba-doc {
+/* @keyframes la-doc {
     0%{
         transform: scaleX(1);
     }
@@ -107,7 +106,9 @@
   left: 10vw;
   bottom: 5vh;
 }
-
+.item2:hover {
+  transform: scaleY(1.2) translateY(-20px);
+}
 .item3 {
   background: yellow;
   height: 7vh;
@@ -117,6 +118,9 @@
   top: 2vh;
 }
 
+.item3:hover {
+  transform: scaleY(1.2) translateY(-20px);
+}
 .item4 {
   background: blue;
   height: 7vh;
@@ -124,4 +128,7 @@
   position: relative;
   left: 3vw;
   bottom: 5vh;
+}
+.item4:hover {
+  transform: scaleY(1.2) translateY(-20px);
 }
