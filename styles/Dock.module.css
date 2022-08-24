@@ -23,7 +23,7 @@
   background-color: var(--main-doc-color);
   height: 11vh;
   width: 30vw;
-
+  border-radius: 20px;
   transition-property: all;
   transition-duration: 0.3s;
 }
@@ -40,12 +40,11 @@
 }
 
 .DockPart1 {
+  border-radius: 20px;
   background-color: white;
   height: 11vh;
   width: 15vw;
-
   box-sizing: border-box;
-
   transition-property: all;
   transition-duration: 0.3s;
 }
