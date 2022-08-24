@@ -27,4 +27,5 @@ html {
   --p-modal-bd-color: rgba(0, 0, 0, 0.1);
   --p-modal-fallback-color: rgba(255, 255, 255, 0.95);
   --p-actions-static-color: #555761;
+  --main-doc-color: white;
 }

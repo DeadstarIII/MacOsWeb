@@ -2,14 +2,8 @@ import styles from "../styles/Dock.module.css";
 const dock = () => {
   return (
     <>
-      <div className="container">
-        <div className="dock">
-          <ul>
-            <li>
-              <span>Finder</span>
-            </li>
-          </ul>
-        </div>
+      <div>
+        <div className={styles.container}><div className={styles.DockPart1}><div className={styles.item1}></div></div></div>
       </div>
     </>
   );
