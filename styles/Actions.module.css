@@ -1,8 +1,8 @@
-.p-modal-opened {
+.pModalOpened {
   overflow: hidden;
 }
-.pbtn {
-  background: #fff;
+.pBtn {
+  background: #ffff;
   border: 1px solid #cacaca;
   border-radius: 5px;
   color: #333230;
@@ -14,8 +14,7 @@
   text-decoration: none;
   /* text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); */
 }
-
-.pactionbackground {
+.pActionBackground{
   background: rgba(0, 0, 0, 0.7);
   height: 100vh;
   left: 0;
@@ -26,122 +25,4 @@
   transition: 0.3s;
   width: 100vw;
   z-index: 5;
-}
-
-.p-action-background.nowactive {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.pactionbigcontainer {
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 1rem 5vw;
-  bottom: 0;
-}
-
-.p-action-container {
-  background: var(--p-modal-bg);
-  display: block;
-  margin: auto;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  max-width: 700px;
-}
-
-.pactionbigcontainer .p-action-container:first-child {
-  margin-bottom: 10px;
-}
-
-.p-action--intern {
-  display: block;
-  margin: auto;
-  text-align: center;
-  padding: 15px 0;
-  border-bottom: 1px solid #bfbfbf;
-  font-weight: 500;
-  color: #0f75f5;
-  text-decoration: none;
-}
-
-.p-action-destructive {
-  color: #c6262e;
-}
-
-.p-action-neutral {
-  color: var(--p-actions-static-color);
-}
-
-.p-action-cancel,
-.p-action-container a:last-child {
-  border-bottom: none;
-}
-
-.p-action-cancel {
-  font-weight: bold;
-}
-
-.p-action-icon {
-  position: relative;
-}
-.p-action-icon svg,
-.p-action-icon img {
-  position: absolute;
-  left: 5%;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.p-action-icon-inline {
-  text-align: left;
-  display: flex;
-  align-items: center;
-}
-
-.p-action-icon-inline svg,
-.p-action-icon-inline img {
-  margin-left: 5%;
-  margin-right: 3%;
-}
-
-.p-action-title {
-  padding: 30px 15px;
-  border-bottom: 1px solid #bfbfbf;
-}
-
-.p-action-title--intern,
-.p-action-text {
-  margin: 0;
-  color: var(--p-actions-static-color);
-}
-
-.p-action-title--intern {
-  margin-bottom: 0.3rem;
-}
-
-@supports not (backdrop-filter: blur(10px)) {
-  .p-action-container {
-    background: var(--p-modal-fallback-color);
-  }
-}
-
-.pactionbigcontainer {
-  -webkit-transform: translateY(30%);
-  transform: translateY(30%);
-  opacity: 0;
-  transition: opacity 0.4s, transform 0.4s;
-  transition-timing-function: ease;
-  pointer-events: none;
-}
-
-.pactionbigcontainer.active {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-  opacity: 1;
-  pointer-events: all;
-}
-
-.pactionbigcontainer.active .p-action-container {
-  backdrop-filter: saturate(180%) blur(10px);
 }

@@ -1,4 +1,4 @@
-import ComingSoon from "./ComingSoon.jsx";
+import Dock from "./Dock.jsx";
 const Layout = ({ children }) => {
   return (
     <div>
