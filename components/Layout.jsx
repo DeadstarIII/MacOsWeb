@@ -2,7 +2,7 @@ import Dock from "./Dock.jsx";
 const Layout = ({ children }) => {
   return (
     <div>
-      <ComingSoon />
+      <Dock />
       {children}
     </div>
   );
