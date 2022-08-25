@@ -9,7 +9,10 @@ export default function Home() {
           name="description"
           content="MacOs Web built to experience OSX in web."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="https://raw.githubusercontent.com/DeadstarIII/MacOsWeb/main/public/favicon.ico"
+        />
       </Head>
     </div>
   );
