@@ -6,17 +6,7 @@ body {
 html {
   background-image: url("https://raw.githubusercontent.com/DeadstarIII/MacOsWeb/main/components/images/wallpaper.png");
 }
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 400;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-}
 
-@font-face {
-  font-family: "San Francisco";
-  font-weight: 800;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
-}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,5 +17,5 @@ html {
   --p-modal-bd-color: rgba(0, 0, 0, 0.1);
   --p-modal-fallback-color: rgba(255, 255, 255, 0.95);
   --p-actions-static-color: #555761;
-  --main-doc-color: white;
+  --main-doc-color: rgba(236, 206, 206, 0.722);
 }
