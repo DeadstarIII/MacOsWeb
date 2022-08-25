@@ -5,6 +5,8 @@ body {
 }
 html {
   background-image: url("https://raw.githubusercontent.com/DeadstarIII/MacOsWeb/main/components/images/wallpaper.png");
+  background-size: 100%;
+  overflow-y: hidden;
 }
 
 @tailwind base;
