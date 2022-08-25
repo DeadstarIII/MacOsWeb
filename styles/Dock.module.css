@@ -56,10 +56,9 @@
     position: relative;
     bottom: 4px;
   }
-  75% {
-    position: relative;
-    bottom: 5px;
-  }
+75%{
+  position: relative;
+}
   100% {
     position: relative;
     bottom: 6px;
@@ -82,7 +81,7 @@
   height: 7vh;
   width: 4vw;
   position: relative;
-  left: 10vw;
+  left: 12vw;
   bottom: 5vh;
   transition: all 0.4s;
 }
