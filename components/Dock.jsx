@@ -4,10 +4,8 @@ const dock = () => {
     <>
       <div>
         <div className={styles.container}>
-          <div className={styles.DockPart1}>
-            <div className={styles.item1}></div>
-            <div className={styles.item2}></div>
-          </div>
+          <div className={styles.item1}></div>
+          <div className={styles.item2}></div>
         </div>
       </div>
     </>
