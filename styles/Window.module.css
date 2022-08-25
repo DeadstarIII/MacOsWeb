@@ -1,0 +1,12 @@
+.titlebar {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  width: 100%;
+  padding: 0.9rem 1rem;
+  user-select: none;
+}
+.Close {
+  background-color: #ff5f56;
+  border-color: #e0443e;
+}
