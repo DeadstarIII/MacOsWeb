@@ -19,7 +19,6 @@
   position: relative;
   top: 87vh;
   left: 35vw;
-  /* background-color: var(--main-doc-color); */
   background-color: var(--main-doc-color);
   height: 11vh;
   width: 25vw;
@@ -56,9 +55,9 @@
     position: relative;
     bottom: 4px;
   }
-75%{
-  position: relative;
-}
+  75% {
+    position: relative;
+  }
   100% {
     position: relative;
     bottom: 6px;
@@ -71,7 +70,7 @@
   height: 7vh;
   width: 4vw;
   position: relative;
-  left: 20px;
+  left: 18px;
   top: 1vw;
   transition: all 0.4s;
 }
