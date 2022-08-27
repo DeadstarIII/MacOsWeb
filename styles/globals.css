@@ -11,9 +11,6 @@ html {
   overflow-y: hidden;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 :root {
   --font: -apple-system, "Inter", sans-serif;
   --primary-col-ac: #0f75f5;
@@ -23,3 +20,4 @@ html {
   --p-actions-static-color: #555761;
   --main-doc-color: rgba(236, 206, 206, 0.722);
 }
+
