@@ -1,0 +1,189 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.userWindow {
+  border-radius: 1%;
+  background-color: white;
+  cursor: help;
+  height: 95vh;
+  width: 100vw;
+  border: 2px solid;
+  display: grid;
+  grid-template-columns: 13vw auto;
+}
+/* 
+THIS CODE IS UNDER NEW MANAGEMENT ; PLEASE TRY HERE LATER 
+*/
+
+/* .translucent{
+  box-sizing: border-box;
+  height: 60vh;
+  width: 30vw;
+  border: 2px solid blue;
+  z-index: 1;
+}
+
+.opaque{
+  box-sizing: border-box;
+  float: right;
+  width: 68.5vw;
+  height: 40vh;
+  border: 2px solid green;
+} */
+
+/* .translucent {
+  /* border: 2px solid blue; 
+  border-radius: 1%;
+  width: 550px;
+  height: 500px;
+  background-color: rgb(202, 186, 186);
+  opacity: 0.6;
+} */
+
+/* .opaque {
+  /* border: 2px solid green; 
+  border-radius: 1%;
+  background-color: rgb(29, 26, 26);
+} */
+
+/* .withoutHover{
+  position: relative;
+  top: 80vh;
+  border: 2 px solid yellow;
+  height: 7px;
+  width: 7px;
+  z-index: 2;
+} */
+
+.buttons {
+  --button-size: 0.8rem;
+  gap: 0.6rem;
+  /* border: 2px solid black; */
+  height: 15vh;
+  rotate: 0.75turn;
+  position: relative;
+  /* right: 94vw;
+  bottom: 4vh; */
+  /* transition: all ; */
+  bottom: 55vh;
+}
+
+.redbutton {
+  height: 17px;
+  width: 17px;
+  position: relative;
+  /* border: 2px solid blue; */
+  background-color: var(--bgcolor);
+  box-shadow: 0 0 0 0.5px var(--border-color);
+  background-color: var(--bgcolor);
+  --bgcolor: #ff5f56;
+  --border-color: #e0443e;
+  border-radius: 150%;
+  transition: transform 0.1s ease-in;
+}
+.redbutton:hover {
+  transform: scale(1.2);
+}
+.yellowbutton {
+  height: 17px;
+  width: 17px;
+  position: relative;
+  top: 0.85vw;
+  border-radius: 150%;
+  --bgcolor: #ffbd2e;
+  --border-color: #dea123;
+  background-color: var(--bgcolor);
+  box-shadow: 0 0 0 0.5px var(--border-color);
+}
+.greenbutton {
+  height: 17px;
+  width: 17px;
+  position: relative;
+  top: 1.75vw;
+  /* border: 2px solid blue; */
+  --bgcolor: #27c93f;
+  --border-color: #1aab29;
+  background-color: var(--bgcolor);
+  box-shadow: 0 0 0 0.5px var(--border-color);
+  border-radius: 150%;
+}
+
+/* .buttons:hover {
+  transform: scale(1.1, 1.1);
+} */
+
+.container.svelte-ds4wcb.svelte-ds4wcb {
+  --button-size: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(3, var(--button-size));
+  align-items: center;
+  gap: 0.6rem;
+  height: 100%;
+}
+.container.unfocused.svelte-ds4wcb button.svelte-ds4wcb {
+  --bgcolor: #b6b6b7;
+  --border-color: hsla(var(--system-color-dark-hsl), 0.5);
+}
+.container.svelte-ds4wcb svg {
+  opacity: 0;
+}
+.container.svelte-ds4wcb:hover button.svelte-ds4wcb {
+  transform: scale(1.2);
+}
+.container.svelte-ds4wcb:hover svg {
+  opacity: 1;
+}
+button.svelte-ds4wcb.svelte-ds4wcb {
+  height: var(--button-size);
+  width: var(--button-size);
+  border-radius: 50%;
+  background-color: var(--bgcolor);
+  box-shadow: 0 0 0 0.5px var(--border-color);
+  transition: transform 0.1s ease-in;
+}
+.close-light.svelte-ds4wcb.svelte-ds4wcb {
+  --bgcolor: #ff5f56;
+  --border-color: #e0443e;
+}
+.stretch-light.svelte-ds4wcb.svelte-ds4wcb {
+  --bgcolor: #27c93f;
+  --border-color: #1aab29;
+}
+.stretch-light.svelte-ds4wcb svg {
+  transform: rotate(90deg);
+}
+.minimize-light.svelte-ds4wcb.svelte-ds4wcb {
+  --bgcolor: #ffbd2e;
+  --border-color: #dea123;
+}
+.container.svelte-11ldxfw {
+  --elevated-shadow: 0px 8.5px 10px rgba(0, 0, 0, 0.115),
+    0px 68px 80px rgba(0, 0, 0, 0.23);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  position: absolute;
+  will-change: width, height;
+  border-radius: 0.75rem;
+  box-shadow: var(--elevated-shadow);
+  cursor: var(--system-cursor-default), auto;
+}
+.container.active.svelte-11ldxfw {
+  --elevated-shadow: 0px 8.5px 10px rgba(0, 0, 0, 0.28),
+    0px 68px 80px rgba(0, 0, 0, 0.56);
+}
+.container.dark.svelte-11ldxfw > section,
+.container.dark.svelte-11ldxfw > div {
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 0.9px hsla(var(--system-color-dark-hsl), 0.3),
+    0 0 0 1px hsla(var(--system-color-light-hsl), 0.5), var(--elevated-shadow);
+}
+.tl-container.svelte-11ldxfw {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  box-shadow: none !important;
+}

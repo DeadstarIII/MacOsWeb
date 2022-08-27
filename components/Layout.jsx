@@ -1,10 +1,10 @@
-import Dock from "./Dock.jsx";
-import Window from "./Window.jsx";
+import Dock from "./Dock/Dock.jsx";
+import ControlButtons from "./ControlButtons/ControlButtons.jsx";
 const Layout = ({ children }) => {
   return (
     <div>
       <Dock />
-      <Window />
+      <ControlButtons />
       {children}
     </div>
   );

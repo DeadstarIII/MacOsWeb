@@ -65,7 +65,7 @@
 }
 
 .item1 {
-  background: green;
+  background: #3569f2;
   border-radius: 10px;
   height: 7vh;
   width: 4vw;
@@ -75,7 +75,7 @@
   transition: all 0.4s;
 }
 .item2 {
-  background: red;
+  background: #7e0bae;
   border-radius: 10px;
   height: 7vh;
   width: 4vw;
