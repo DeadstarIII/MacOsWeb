@@ -10,10 +10,9 @@ const Dock = () => {
           <div
             className={styles.item1}
             onClick={() => setIsVisible(!isVisible)}
-          />
-          {isVisible && <Calculator />}
-
+          ></div>{" "}
           <div className={styles.item2} />
+          {isVisible ? <Calculator /> : !isVisible}
         </div>
       </div>
     </>
